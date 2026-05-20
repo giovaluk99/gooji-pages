@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gooji — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+    color: #1a1a1a;
+    background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #141414; }
+    a { color: #f0a868; }
+    code { background: #2a2a2a; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; border-bottom: 1px solid rgba(128,128,128,0.25); padding-bottom: 0.3rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  .meta { color: #888; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .note { background: rgba(238,154,87,0.12); border-left: 3px solid #ee9a57; padding: 0.75rem 1rem; border-radius: 6px; font-size: 0.92rem; }
+  code { background: #f0f0f0; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+  ul { padding-left: 1.4rem; }
+  li { margin: 0.3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.92rem; }
+  th, td { border: 1px solid rgba(128,128,128,0.3); padding: 0.5rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: rgba(128,128,128,0.1); }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Gooji &middot; Last updated: [EFFECTIVE_DATE]</p>
+
+<p class="note"><strong>Template notice:</strong> This is a starter privacy policy. Replace every <code>[BRACKETED]</code> placeholder and have it reviewed by a qualified attorney before publishing. It is not legal advice.</p>
+
+<p>This Privacy Policy explains how [COMPANY] ("we," "us," or "our") collects, uses, and shares information when you use the Gooji mobile application (the "App"). By using Gooji, you agree to the practices described here.</p>
+
+<h2>1. Who We Are</h2>
+<p>Gooji is a conversational personal-finance assistant. The App lets you link financial accounts, ask questions about your money in natural language, and receive summaries, charts, budgets, and plans. The data controller is [COMPANY], contactable at <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a>.</p>
+
+<h2>2. Information We Collect</h2>
+
+<h3>Account information</h3>
+<ul>
+  <li>Email address (required to create an account).</li>
+  <li>First and last name (optional).</li>
+  <li>Authentication is handled by our backend provider, Supabase. If you use "Sign in with Apple," we receive the identifier and email you authorize Apple to share. We do not store your password in plaintext.</li>
+  <li>App preferences such as language and appearance settings.</li>
+</ul>
+
+<h3>Financial account data (via Plaid)</h3>
+<p>When you connect a bank, credit card, or brokerage account, we use Plaid Inc. ("Plaid") to securely access your data. Depending on the accounts you link, this may include:</p>
+<ul>
+  <li>Account names, types, and the last few digits ("mask") of account numbers;</li>
+  <li>Current and available balances;</li>
+  <li>Transaction history, including amounts, dates, merchant names, and categories;</li>
+  <li>Investment holdings and transactions, including securities, quantities, market values, cost basis, dividends, and fees.</li>
+</ul>
+<p>We never receive or store your bank login credentials. Plaid access tokens are stored encrypted on our backend and are never exposed to the App on your device. Your use of Plaid is also governed by <a href="https://plaid.com/legal/#end-user-privacy-policy">Plaid's End User Privacy Policy</a>.</p>
+
+<h3>Chat content and AI processing</h3>
+<ul>
+  <li>The messages you send in the App and your recent conversation history.</li>
+  <li>To answer questions, Gooji uses an artificial-intelligence service provided by Anthropic, PBC ("Anthropic"). When you ask Gooji to analyze your finances, relevant financial data (such as balances, transactions, holdings, and your name) is sent to Anthropic's API solely to generate a response.</li>
+  <li>Financial data is sent to the AI provider only when needed to fulfill your request — for example, when you ask Gooji to analyze spending or build a dashboard.</li>
+</ul>
+
+<h3>Voice input</h3>
+<p>If you use voice features, audio is recorded and transcribed to text <strong>on your device</strong>. The audio recording is deleted immediately after transcription and is never uploaded to our servers or to any third party. Only the resulting text is processed like any other chat message.</p>
+
+<h3>Usage and analytics</h3>
+<ul>
+  <li>We collect product-analytics events (for example: app opened, chat message sent, onboarding completed, notification permission granted) along with technical properties such as app version, operating-system version, device model, locale, and a session identifier.</li>
+  <li>These analytics are stored on our own backend (Supabase). We do not use third-party advertising or analytics SDKs, and we do not sell your data.</li>
+</ul>
+
+<h3>Device and notification data</h3>
+<p>If you enable push notifications, we collect an Apple Push Notification service (APNs) device token so we can deliver notifications. Notifications are delivered through Apple's APNs.</p>
+
+<h2>3. How We Use Your Information</h2>
+<ul>
+  <li>To provide the App's core features — analyzing your finances, answering questions, and generating budgets, plans, and dashboards;</li>
+  <li>To create and secure your account;</li>
+  <li>To send notifications you have enabled;</li>
+  <li>To understand how the App is used and to improve it;</li>
+  <li>To detect, prevent, and respond to fraud, abuse, or security issues;</li>
+  <li>To comply with legal obligations.</li>
+</ul>
+<p>We do not use your financial data for advertising, and we do not sell your personal information.</p>
+
+<h2>4. How Your Information Is Shared</h2>
+<p>We share information only with service providers that help us operate the App, and only as needed:</p>
+<table>
+  <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+  <tr><td>Supabase</td><td>Backend, database, authentication, hosting</td><td>Account, financial, chat, analytics, and device data</td></tr>
+  <tr><td>Plaid</td><td>Secure connection to your financial institutions</td><td>Bank/brokerage credentials and account data</td></tr>
+  <tr><td>Anthropic</td><td>AI processing of your questions</td><td>Chat messages and relevant financial data, when needed for a response</td></tr>
+  <tr><td>Apple (APNs)</td><td>Delivering push notifications</td><td>Device token</td></tr>
+</table>
+<p>We may also disclose information if required by law, to protect our rights, or in connection with a merger, acquisition, or sale of assets (in which case we will notify you).</p>
+
+<h2>5. Data Retention</h2>
+<p>We retain your information for as long as your account is active or as needed to provide the App. You can disconnect a linked financial institution at any time, and you can request deletion of your account and associated data (see Section 7). We may retain limited information as required for legal, security, or fraud-prevention purposes.</p>
+
+<h2>6. Data Security</h2>
+<p>We use industry-standard safeguards, including encryption in transit and at rest, to protect your information. Financial access tokens are stored encrypted and are not accessible from your device. No method of transmission or storage is 100% secure, however, and we cannot guarantee absolute security.</p>
+
+<h2>7. Your Choices and Rights</h2>
+<ul>
+  <li><strong>Access and correction:</strong> You can view and update your profile information in the App.</li>
+  <li><strong>Disconnect accounts:</strong> You can unlink any financial institution at any time from within the App.</li>
+  <li><strong>Deletion:</strong> You can request deletion of your account and associated data by contacting us at <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a>.</li>
+  <li><strong>Notifications:</strong> You can disable push notifications in your device settings.</li>
+  <li>Depending on where you live (for example, the EEA/UK under GDPR, or California under the CCPA/CPRA), you may have additional rights such as data portability or the right to object to certain processing. To exercise these rights, contact us at <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a>.</li>
+</ul>
+
+<h2>8. Children's Privacy</h2>
+<p>Gooji is not directed to children under 13 (or the minimum age required in your jurisdiction), and we do not knowingly collect data from them. If you believe a child has provided us information, contact us and we will delete it.</p>
+
+<h2>9. International Users</h2>
+<p>We operate from [JURISDICTION], and your information may be processed in the United States or other countries where our service providers operate. Those countries may have different data-protection laws than your own.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will post the updated version with a new "Last updated" date and, where appropriate, notify you in the App.</p>
+
+<h2>11. Contact Us</h2>
+<p>Questions about this policy or your data? Contact us at <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a>[, or [COMPANY], [MAILING_ADDRESS]].</p>
+
+</body>
+</html>
